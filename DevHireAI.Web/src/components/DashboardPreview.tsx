@@ -115,7 +115,7 @@ export const DashboardPreview: React.FC = () => {
             </div>
 
             {/* Top 3 Metric Cards Grid */}
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               
               {/* Card 1: ATS Match Score */}
               <div className="bg-white border border-slate-200/80 rounded-xl p-3 shadow-2xs">
