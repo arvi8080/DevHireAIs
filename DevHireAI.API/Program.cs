@@ -152,6 +152,9 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 app.UseMiddleware<ExceptionMiddleware>();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.UseAuthentication();
 
 app.UseAuthorization();

@@ -1,16 +1,17 @@
 # Visual Studio
 .vs/
+.idea/
 
 # Build output
 bin/
 obj/
+dist/
+node_modules/
 
 # User files
 *.user
 *.suo
 
-# Rider
-.idea/
-
 # Logs
 *.log
+DevHireAI.API/Logs/
